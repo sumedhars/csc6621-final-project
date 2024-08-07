@@ -12,7 +12,3 @@ CSC 6621 Final Project: Predicting Patient Readmission Rates using Random Forest
     - Fine-tune the number of trees, maximum depth, learning rate, and other hyperparameters. 
 Use cross-validation for model evaluation and feature engineering to create new, informative features
 Evaluation Metrics: Improved accuracy, precision, recall, F1-score, and ROC-AUC.
-
-## Comments to address:
-1. Using `Excess Readmission Rate` as an x value: too similar to `Predicted Readmision Rate` - potential concern?
-2. Do we want to do hyperparameter tuning for Baseline Linear Regression model b/c of poor r2 value
