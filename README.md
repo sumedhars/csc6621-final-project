@@ -1,4 +1,4 @@
-### CSC 6621 Final Project: Predicting Patient Readmission Rates using Random Forests and Gradient Boosting 
+### CSC 6621 Final Project: Predicting Excess Readmission Ratios using Random Forests and Gradient Boosting 
 
 - **Brief Description**: predict hospital readmission rates for patients using Random Forests and Gradient Boosting algorithms. The goal is to identify high-risk patients and provide them with additional care to prevent readmission.
 - **Data**: https://data.cms.gov/provider-data/dataset/9n3s-kdb3
@@ -11,7 +11,7 @@
     - Fine-tune the number of trees, maximum depth, learning rate, and other hyperparameters. Use cross-validation for model evaluation and feature engineering to create new, informative features
     - Evaluation Metrics: Improved accuracy, R^2 Score
 - **Experimental Models**: 
-    - This is to test the robustness of our Random Forest model and to help identify the optimal approach for predicting readmission rates, and to balance model complexity as well. There are three experimental models:
+    - This is to test the robustness of our Random Forest model and to help identify the optimal approach for excess readmission ratios, and to balance model complexity as well. There are three experimental models:
         - Increasing the Train-Test Split Ratio
         - Omitting Feature Engineering
         - Implementing a Simple Neural Network
